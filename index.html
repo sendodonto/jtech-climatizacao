@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<!--
+  JTECH CLIMATIZACAO, LAVADORAS E REFRIGERACAO
+  O numero de WhatsApp fica em UM lugar: CONFIG.whatsapp, no topo do script.js.
+  Enquanto estiver vazio, os botoes abrem o Direct do Instagram.
+  Antes de publicar: troque o dominio (marcado com TROCAR). Ver README.md.
+-->
+
+<title>Assistência Técnica em Cachoeirinha - RS | Ar-Condicionado, Lavadoras e Geladeiras | JTech</title>
+<meta name="description" content="Instalação, manutenção e higienização de ar-condicionado e conserto de lavadoras, geladeiras e micro-ondas em Cachoeirinha - RS e região. Solicite seu orçamento.">
+<meta name="theme-color" content="#10366B">
+<meta name="author" content="JTech Climatização, Lavadoras e Refrigeração">
+<link rel="canonical" href="https://jtechclimatizacao.com.br/"><!-- TROCAR -->
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="JTech Climatização, Lavadoras e Refrigeração">
+<meta property="og:url" content="https://jtechclimatizacao.com.br/"><!-- TROCAR -->
+<meta property="og:title" content="JTech | Assistência técnica em Cachoeirinha - RS">
+<meta property="og:description" content="Ar-condicionado, lavadoras, geladeiras e micro-ondas. Atendimento em Cachoeirinha e região.">
+<meta property="og:image" content="https://jtechclimatizacao.com.br/img/og.jpg"><!-- TROCAR -->
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Técnico trabalhando na manutenção de um equipamento em oficina">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="JTech | Assistência técnica em Cachoeirinha - RS">
+<meta name="twitter:description" content="Ar-condicionado, lavadoras, geladeiras e micro-ondas. Atendimento em Cachoeirinha e região.">
+<meta name="twitter:image" content="https://jtechclimatizacao.com.br/img/og.jpg"><!-- TROCAR -->
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..800&display=swap">
+
+<link rel="preload" as="image" href="img/hero-1400.webp"
+      imagesrcset="img/hero-800.webp 800w, img/hero-1400.webp 1400w"
+      imagesizes="(max-width: 899px) 100vw, 40vw" fetchpriority="high">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');</script>
+
+<!-- Telefone fica de fora ate o numero oficial ser confirmado. Ver README.md. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "JTech Climatização, Lavadoras e Refrigeração",
+  "url": "https://jtechclimatizacao.com.br/",
+  "image": "https://jtechclimatizacao.com.br/img/og.jpg",
+  "description": "Instalação, manutenção e higienização de ar-condicionado e assistência técnica para lavadoras de roupas, geladeiras e micro-ondas em Cachoeirinha - RS e região.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Cachoeirinha",
+    "addressRegion": "RS",
+    "addressCountry": "BR"
+  },
+  "areaServed": { "@type": "City", "name": "Cachoeirinha" },
+  "knowsAbout": ["Instalação de ar-condicionado", "Higienização de ar-condicionado", "Conserto de máquina de lavar", "Conserto de geladeira", "Conserto de micro-ondas"],
+  "sameAs": ["https://www.instagram.com/jtechclimatizacaoelavadoras/"]
+}
+</script>
+</head>
+
+<body>
+<svg class="sprite" aria-hidden="true" focusable="false">
+<symbol id="i-air-conditioning" viewBox="0 0 24 24"><path d="M8 16a3 3 0 0 1 -3 3" /> <path d="M16 16a3 3 0 0 0 3 3" /> <path d="M12 16v4" /> <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" /> <path d="M7 13v-3a1 1 0 0 1 1 -1h8a1 1 0 0 1 1 1v3" /></symbol>
+<symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12l14 0" /> <path d="M13 18l6 -6" /> <path d="M13 6l6 6" /></symbol>
+<symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M17 7l-10 10" /> <path d="M8 7l9 0l0 9" /></symbol>
+<symbol id="i-brand-instagram" viewBox="0 0 24 24"><path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /> <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /> <path d="M16.5 7.5v.01" /></symbol>
+<symbol id="i-brand-whatsapp" viewBox="0 0 24 24"><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" /> <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" /></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12l5 5l10 -10" /></symbol>
+<symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="M15 6l-6 6l6 6" /></symbol>
+<symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="M9 6l6 6l-6 6" /></symbol>
+<symbol id="i-fridge" viewBox="0 0 24 24"><path d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" /> <path d="M5 10h14" /> <path d="M9 13v3" /> <path d="M9 6v1" /></symbol>
+<symbol id="i-layout-grid" viewBox="0 0 24 24"><path d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" /> <path d="M14 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" /> <path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" /> <path d="M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" /></symbol>
+<symbol id="i-map-pin" viewBox="0 0 24 24"><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /> <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /></symbol>
+<symbol id="i-menu-2" viewBox="0 0 24 24"><path d="M4 6l16 0" /> <path d="M4 12l16 0" /> <path d="M4 18l16 0" /></symbol>
+<symbol id="i-message-circle" viewBox="0 0 24 24"><path d="M3 20l1.3 -3.9c-2.324 -3.437 -1.426 -7.872 2.1 -10.374c3.526 -2.501 8.59 -2.296 11.845 .48c3.255 2.777 3.695 7.266 1.029 10.501c-2.666 3.235 -7.615 4.215 -11.574 2.293l-4.7 1" /></symbol>
+<symbol id="i-microwave" viewBox="0 0 24 24"><path d="M3 6m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" /> <path d="M15 6v12" /> <path d="M18 12h.01" /> <path d="M18 15h.01" /> <path d="M18 9h.01" /> <path d="M6.5 10.5c1 -.667 1.5 -.667 2.5 0c.833 .347 1.667 .926 2.5 0" /> <path d="M6.5 13.5c1 -.667 1.5 -.667 2.5 0c.833 .347 1.667 .926 2.5 0" /></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5l0 14" /> <path d="M5 12l14 0" /></symbol>
+<symbol id="i-wash-machine" viewBox="0 0 24 24"><path d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" /> <path d="M12 14m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /> <path d="M8 6h.01" /> <path d="M11 6h.01" /> <path d="M14 6h2" /> <path d="M8 14c1.333 -.667 2.667 -.667 4 0c1.333 .667 2.667 .667 4 0" /></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6l-12 12" /> <path d="M6 6l12 12" /></symbol>
+</svg>
+
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<div class="top-sentinel" aria-hidden="true"></div>
+
+<header class="header">
+  <div class="wrap header__bar">
+    <a class="logo" href="#inicio" aria-label="JTech, voltar ao início">
+      <span class="logo__mark" aria-hidden="true">J</span>
+      <span class="logo__text"><span class="logo__name">JTech</span><span class="logo__sub">Climatização, lavadoras e refrigeração</span></span>
+    </a>
+
+    <nav class="nav" aria-label="Principal">
+      <ul class="nav__list">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#como-funciona">Como funciona</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <a class="btn btn--primary btn--sm header__cta" data-wa="geral" href="https://ig.me/m/jtechclimatizacaoelavadoras" target="_blank" rel="noopener">Solicitar orçamento</a>
+
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+      <svg class="icon" aria-hidden="true"><use href="#i-menu-2"/></svg>
+    </button>
+  </div>
+
+  <div class="menu" id="menu" hidden>
+    <nav class="wrap menu__inner" aria-label="Menu">
+      <ul class="menu__list">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#equipamento">Escolha seu equipamento</a></li>
+        <li><a href="#como-funciona">Como funciona</a></li>
+        <li><a href="#duvidas">Dúvidas</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <a class="btn btn--primary btn--block" data-wa="geral" href="https://ig.me/m/jtechclimatizacaoelavadoras" target="_blank" rel="noopener">
+        <svg class="icon" aria-hidden="true"><use data-channel-icon href="#i-brand-instagram"/></svg>
+        Solicitar orçamento
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <!-- HERO -->
+  <section class="hero" id="inicio" aria-labelledby="hero-title">
+    <div class="wrap hero__grid">
+      <div class="hero__copy">
+        <p class="hero__kicker" data-enter>
+          <svg class="icon" aria-hidden="true"><use href="#i-map-pin"/></svg>
+          Assistência técnica em Cachoeirinha - RS
+        </p>
+        <h1 class="hero__title" id="hero-title" data-enter>Seu equipamento <em>funcionando</em> como deveria.</h1>
+        <p class="hero__lead" data-enter>Instalação e manutenção de ar-condicionado, conserto de lavadoras e assistência para eletrodomésticos, com atendimento em Cachoeirinha e região.</p>
+        <div class="hero__actions" data-enter>
+          <a class="btn btn--light btn--lg" data-wa="geral" href="https://ig.me/m/jtechclimatizacaoelavadoras" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use data-channel-icon href="#i-brand-instagram"/></svg>
+            Solicitar orçamento
+          </a>
+          <a class="btn btn--outline-light btn--lg" href="#servicos">
+            Conhecer os serviços
+            <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+          </a>
+        </div>
+        <ul class="shortcuts" data-enter aria-label="Ir para a categoria">
+          <li><a class="shortcut" href="#ar-condicionado"><svg class="icon" aria-hidden="true"><use href="#i-air-conditioning"/></svg>Climatização</a></li>
+          <li><a class="shortcut" href="#lavadoras"><svg class="icon" aria-hidden="true"><use href="#i-wash-machine"/></svg>Lavadoras</a></li>
+          <li><a class="shortcut" href="#geladeiras"><svg class="icon" aria-hidden="true"><use href="#i-fridge"/></svg>Refrigeração e eletrodomésticos</a></li>
+        </ul>
+      </div>
+
+      <figure class="hero__media" data-enter>
+        <img src="img/hero-1400.webp"
+             srcset="img/hero-800.webp 800w, img/hero-1400.webp 1400w"
+             sizes="(max-width: 899px) 100vw, 40vw"
+             width="1400" height="1866" fetchpriority="high"
+             alt="Técnico segurando a tampa de um equipamento durante uma manutenção em oficina">
+      </figure>
+    </div>
+  </section>
+
+  <!-- SERVICOS -->
+  <section class="section services" id="servicos" aria-labelledby="servicos-title">
+    <div class="wrap">
+      <header class="section-head" data-reveal>
+        <h2 class="h2" id="servicos-title">Tudo o que você precisa para cuidar dos seus equipamentos.</h2>
+        <p class="section-head__lead">Encontre o serviço ideal para sua necessidade e solicite um orçamento diretamente pelo <span data-channel>Instagram</span>.</p>
+      </header>
+
+      <div class="services__grid">
+        <article class="svc svc--wide" id="ar-condicionado" data-reveal>
+          <div class="svc__media">
+            <img src="img/card-ar.webp" width="900" height="600" loading="lazy" decoding="async"
+                 alt="Ar-condicionado split instalado na parede de um ambiente claro">
+          </div>
+          <div class="svc__body">
+            <p class="svc__num">01</p>
+            <h3 class="svc__title"><svg class="icon" aria-hidden="true"><use href="#i-air-conditioning"/></svg>Ar-condicionado</h3>
+            <p class="svc__text">Instalação, manutenção e higienização para ajudar a manter seu equipamento funcionando adequadamente.</p>
+            <ul class="svc__list">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Instalação</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Manutenção</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Higienização</li>
+            </ul>
+            <a class="btn btn--primary" data-wa="ar" href="https://ig.me/m/jtechclimatizacaoelavadoras" target="_blank" rel="noopener">
+              Orçar serviço<span class="sr-only"> de ar-condicionado</span>
+              <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="svc" id="lavadoras" data-reveal>
+          <div class="svc__media">
+            <img src="img/card-lavadora.webp" width="900" height="676" loading="lazy" decoding="async"
+                 alt="Máquina de lavar roupas de abertura frontal com a porta aberta">
+          </div>
+          <div class="svc__body">
+            <p class="svc__num">02</p>
+            <h3 class="svc__title"><svg class="icon" aria-hidden="true"><use href="#i-wash-machine"/></svg>Lavadoras de roupas</h3>
+            <p class="svc__text">Assistência para identificar e solucionar problemas no funcionamento da sua máquina de lavar.</p>
+            <ul class="svc__list">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Diagnóstico</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Manutenção</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Conserto</li>
+            </ul>
+            <a class="btn btn--soft" data-wa="lavadora" href="https://ig.me/m/jtechclimatizacaoelavadoras" target="_blank" rel="noopener">
+              Orçar conserto<span class="sr-only"> de lavadora</span>
+              <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="svc" id="geladeiras" data-reveal>
+          <div class="svc__media">
+            <img src="img/card-geladeira.webp" width="900" height="600" loading="lazy" decoding="async"
+                 alt="Geladeira de inox em uma cozinha ao lado da janela">
+          </div>
+          <div class="svc__body">
+            <p class="svc__num">03</p>
+            <h3 class="svc__title"><svg class="icon" aria-hidden="true"><use href="#i-fridge"/></svg>Geladeiras</h3>
+            <p class="svc__text">Assistência para problemas de funcionamento e refrigeração, conforme o modelo e o defeito apresentado.</p>
+            <ul class="svc__list">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Avaliação do problema</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Manutenção</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Reparo</li>
+            </ul>
+            <a class="btn btn--soft" data-wa="geladeira" href="https://ig.me/m/jtechclimatizacaoelavadoras" target="_blank" rel="noopener">
+              Orçar conserto<span class="sr-only"> de geladeira</span>
+              <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="svc" id="micro-ondas" data-reveal>
+          <div class="svc__media">
+            <img src="img/card-microondas.webp" width="900" height="1350" loading="lazy" decoding="async"
+                 alt="Micro-ondas branco sobre a bancada de madeira de uma cozinha">
+          </div>
+          <div class="svc__body">
+            <p class="svc__num">04</p>
+            <h3 class="svc__title"><svg class="icon" aria-hidden="true"><use href="#i-microwave"/></svg>Micro-ondas</h3>
+            <p class="svc__text">Assistência para avaliar falhas e problemas de funcionamento do seu micro-ondas.</p>
+            <ul class="svc__list">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Diagnóstico</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Manutenção</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Reparo</li>
+            </ul>
+            <a class="btn btn--soft" data-wa="microondas" href="https://ig.me/m/jtechclimatizacaoelavadoras" target="_blank" rel="noopener">
+              Orçar conserto<span class="sr-only"> de micro-ondas</span>
+              <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ESCOLHA SEU EQUIPAMENTO -->
+  <section class="section picker" id="equipamento" aria-labelledby="picker-title">
+    <div class="wrap picker__grid">
+      <div class="picker__choose" data-reveal>
+        <h2 class="h2" id="picker-title">Qual equipamento precisa de atenção?</h2>
+        <fieldset class="picker__options">
+          <legend class="sr-only">Escolha o equipamento</legend>
+          <label class="opt">
+            <input type="radio" name="equip" value="ar">
+            <span class="opt__box"><svg class="icon" aria-hidden="true"><use href="#i-air-conditioning"/></svg><span class="opt__label">Ar-condicionado</span><span class="opt__check" aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></span></span>
+          </label>
+          <label class="opt">
+            <input type="radio" name="equip" value="lavadora">
+            <span class="opt__box"><svg class="icon" aria-hidden="true"><use href="#i-wash-machine"/></svg><span class="opt__label">Máquina de lavar</span><span class="opt__check" aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></span></span>
+          </label>
+          <label class="opt">
+            <input type="radio" name="equip" value="geladeira">
+            <span class="opt__box"><svg class="icon" aria-hidden="true"><use href="#i-fridge"/></svg><span class="opt__label">Geladeira</span><span class="opt__check" aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></span></span>
+          </label>
+          <label class="opt">
+            <input type="radio" name="equip" value="microondas">
+            <span class="opt__box"><svg class="icon" aria-hidden="true"><use href="#i-microwave"/></svg><span class="opt__label">Micro-ondas</span><span class="opt__check" aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></span></span>
+          </label>
+        </fieldset>
+      </div>
+
+      <div class="picker__panel" data-reveal aria-live="polite">
+        <div class="picker__empty">
+          <svg class="icon picker__big" aria-hidden="true"><use href="#i-layout-grid"/></svg>
+          <p class="picker__name">Escolha um equipamento</p>
+          <p class="picker__text">Toque em uma das opções para falar direto sobre ele com a JTech.</p>
+        </div>
+        <div class="picker__result" hidden>
+          <svg class="icon picker__big" aria-hidden="true"><use class="picker__icon" href="#i-air-conditioning"/></svg>
+          <p class="picker__name"></p>
+          <p class="picker__text"></p>
+          <a class="btn btn--light btn--lg picker__cta" data-wa="sel-ar" href="https://ig.me/m/jtechclimatizacaoelavadoras" target="_blank" rel="noopener">
+            Solicitar atendimento para este equipamento
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- POR QUE A JTECH -->
+  <section class="section why" aria-labelledby="why-title">
+    <div class="wrap why__grid">
+      <figure class="why__media" data-reveal>
+        <img src="img/porque.webp" width="1200" height="2134" loading="lazy" decoding="async"
+             alt="Técnico usando um manifold para medir a pressão de um sistema de refrigeração">
+        <figcaption class="why__chip">
+          <svg class="icon" aria-hidden="true"><use href="#i-air-conditioning"/></svg>
+          <svg class="icon" aria-hidden="true"><use href="#i-wash-machine"/></svg>
+          <svg class="icon" aria-hidden="true"><use href="#i-fridge"/></svg>
+          <svg class="icon" aria-hidden="true"><use href="#i-microwave"/></svg>
+          <span>4 categorias de equipamentos</span>
+        </figcaption>
+      </figure>
+
+      <div class="why__copy" data-reveal>
+        <h2 class="h2" id="why-title">Assistência técnica sem complicação.</h2>
+        <ul class="perks">
+          <li class="perk">
+            <span class="perk__icon"><svg class="icon" aria-hidden="true"><use href="#i-message-circle"/></svg></span>
+            <div>
+              <h3 class="perk__title">Atendimento direcionado</h3>
+              <p>Conte o que está acontecendo com seu equipamento para receber orientações sobre os próximos passos.</p>
+            </div>
+          </li>
+          <li class="perk">
+            <span class="perk__icon"><svg class="icon" aria-hidden="true"><use href="#i-layout-grid"/></svg></span>
+            <div>
+              <h3 class="perk__title">Serviços em diferentes categorias</h3>
+              <p>Uma única empresa para consultar sobre climatização, lavadoras, geladeiras e micro-ondas.</p>
+            </div>
+          </li>
+          <li class="perk">
+            <span class="perk__icon"><svg class="icon" aria-hidden="true"><use data-channel-icon href="#i-brand-instagram"/></svg></span>
+            <div>
+              <h3 class="perk__title">Orçamento pelo <span data-channel>Instagram</span></h3>
+              <p>Entre em contato, informe sua necessidade e consulte a disponibilidade do serviço.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="section how" id="como-funciona" aria-labelledby="how-title">
+    <div class="wrap">
+      <h2 class="h2 how__title" id="how-title" data-reveal>Do primeiro contato à solução.</h2>
+      <ol class="steps" data-reveal>
+        <li class="step">
+          <span class="step__node" aria-hidden="true"></span>
+          <p class="step__num" aria-hidden="true">01</p>
+          <h3 class="step__title">Conte o que aconteceu</h3>
+          <p class="step__text">Informe qual equipamento apresenta problemas e descreva os sintomas.</p>
+        </li>
+        <li class="step">
+          <span class="step__node" aria-hidden="true"></span>
+          <p class="step__num" aria-hidden="true">02</p>
+          <h3 class="step__title">Receba as orientações</h3>
+          <p class="step__text">A equipe informa os próximos passos e verifica as condições para avaliar o serviço.</p>
+        </li>
+        <li class="step">
+          <span class="step__node" aria-hidden="true"></span>
+          <p class="step__num" aria-hidden="true">03</p>
+          <h3 class="step__title">Consulte seu orçamento</h3>
+          <p class="step__text">Entenda o serviço recomendado e os custos antes de decidir pela contratação.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section class="section gallery" id="galeria" aria-labelledby="galeria-title">
+    <div class="wrap">
+      <header class="section-head" data-reveal>
+        <h2 class="h2" id="galeria-title">Serviços realizados na prática.</h2>
+        <!-- Enquanto as fotos forem de banco, este aviso precisa ficar. Ver README.md. -->
+        <p class="section-head__lead">Imagens ilustrativas. Os trabalhos realizados pela JTech, incluindo o antes e depois, estão no
+          <a class="text-link" href="https://www.instagram.com/jtechclimatizacaoelavadoras/" target="_blank" rel="noopener">Instagram @jtechclimatizacaoelavadoras</a>.</p>
+      </header>
+    </div>
+    <ul class="gallery__track" data-reveal>
+      <li class="g">
+        <button class="g__btn" type="button" data-full="img/gal-instalacao-lg.webp" data-caption="Instalação de ar-condicionado (imagem ilustrativa)">
+          <img src="img/gal-instalacao.webp" width="800" height="1200" loading="lazy" decoding="async"
+               alt="Técnico conectando a tubulação de uma condensadora de ar-condicionado">
+          <span class="g__zoom" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span>
+        </button>
+        <p class="g__cap">Instalação de ar-condicionado</p>
+      </li>
+      <li class="g">
+        <button class="g__btn" type="button" data-full="img/gal-manutencao-lg.webp" data-caption="Manutenção de ar-condicionado (imagem ilustrativa)">
+          <img src="img/gal-manutencao.webp" width="800" height="1200" loading="lazy" decoding="async"
+               alt="Técnico conferindo as pressões de um ar-condicionado com manômetros">
+          <span class="g__zoom" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span>
+        </button>
+        <p class="g__cap">Manutenção de ar-condicionado</p>
+      </li>
+      <li class="g">
+        <button class="g__btn" type="button" data-full="img/gal-lavadora-lg.webp" data-caption="Manutenção de lavadora (imagem ilustrativa)">
+          <img src="img/gal-lavadora.webp" width="800" height="1422" loading="lazy" decoding="async"
+               alt="Técnico examinando uma peça interna de máquina de lavar na bancada">
+          <span class="g__zoom" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span>
+        </button>
+        <p class="g__cap">Manutenção de lavadoras</p>
+      </li>
+      <li class="g">
+        <button class="g__btn" type="button" data-full="img/gal-geladeira-lg.webp" data-caption="Reparo em equipamento de refrigeração (imagem ilustrativa)">
+          <img src="img/gal-geladeira.webp" width="800" height="1422" loading="lazy" decoding="async"
+               alt="Dois técnicos trabalhando no reparo de um freezer">
+          <span class="g__zoom" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span>
+        </button>
+        <p class="g__cap">Refrigeração</p>
+      </li>
+      <li class="g">
+        <button class="g__btn" type="button" data-full="img/gal-microondas-lg.webp" data-caption="Reparo de micro-ondas (imagem ilustrativa)">
+          <img src="img/gal-microondas.webp" width="800" height="1422" loading="lazy" decoding="async"
+               alt="Técnico reparando um micro-ondas aberto na bancada">
+          <span class="g__zoom" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span>
+        </button>
+        <p class="g__cap">Reparo de eletrodomésticos</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- AREA DE ATENDIMENTO -->
+  <section class="section area" id="area" aria-labelledby="area-title">
+    <div class="wrap">
+      <div class="area__band" data-reveal>
+        <span class="area__icon" aria-hidden="true"><svg class="icon"><use href="#i-map-pin"/></svg></span>
+        <div class="area__copy">
+          <h2 class="area__title" id="area-title">Atendimento em Cachoeirinha e região.</h2>
+          <p>A JTech atende solicitações relacionadas à climatização e à manutenção de eletrodomésticos. Entre em contato para confirmar a disponibilidade do serviço na sua localidade.</p>
+          <p class="area__city">Cachoeirinha - RS</p>
+        </div>
+        <a class="btn btn--primary btn--lg" data-wa="area" href="https://ig.me/m/jtechclimatizacaoelavadoras" target="_blank" rel="noopener">Consultar atendimento</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq" id="duvidas" aria-labelledby="faq-title">
+    <div class="wrap faq__wrap">
+      <h2 class="h2" id="faq-title" data-reveal>Perguntas frequentes.</h2>
+      <div class="faq__list" data-reveal>
+        <details class="qa" name="faq">
+          <summary>Quais equipamentos a JTech atende?<span class="qa__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></summary>
+          <div class="qa__body"><p>Ar-condicionado (instalação, manutenção e higienização), lavadoras de roupas, geladeiras e micro-ondas.</p></div>
+        </details>
+        <details class="qa" name="faq">
+          <summary>A empresa instala e higieniza ar-condicionado?<span class="qa__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></summary>
+          <div class="qa__body"><p>Sim. A JTech faz instalação, manutenção e higienização de ar-condicionado. Para orçar, informe o tipo de aparelho e o local do serviço.</p></div>
+        </details>
+        <details class="qa" name="faq">
+          <summary>Como solicitar um orçamento?<span class="qa__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></summary>
+          <div class="qa__body"><p>Pelo <a class="text-link" data-wa="geral" href="https://ig.me/m/jtechclimatizacaoelavadoras" target="_blank" rel="noopener"><span data-channel>Instagram</span></a>: diga qual é o equipamento e descreva o problema. Se puder, envie fotos ou um vídeo do defeito na mesma conversa.</p></div>
+        </details>
+        <details class="qa" name="faq">
+          <summary>É possível consultar o preço antes do atendimento?<span class="qa__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></summary>
+          <div class="qa__body"><p>Depende do equipamento e do defeito. Em alguns casos é preciso avaliar o aparelho antes de definir o valor. Pergunte como funciona o orçamento para o seu caso antes de contratar.</p></div>
+        </details>
+        <details class="qa" name="faq">
+          <summary>Quais cidades são atendidas?<span class="qa__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></summary>
+          <div class="qa__body"><p>Cachoeirinha e região. Informe sua cidade ou bairro para confirmar a disponibilidade do atendimento.</p></div>
+        </details>
+        <details class="qa" name="faq">
+          <summary>A empresa atende todas as marcas e modelos?<span class="qa__icon" aria-hidden="true"><svg class="icon"><use href="#i-plus"/></svg></span></summary>
+          <div class="qa__body"><p>Depende do equipamento e do defeito. Informe a marca e o modelo do aparelho para confirmar se o atendimento é possível.</p></div>
+        </details>
+        <p class="faq__more">Ficou com outra dúvida?
+          <a class="text-link" data-wa="duvida" href="https://ig.me/m/jtechclimatizacaoelavadoras" target="_blank" rel="noopener">Pergunte pelo <span data-channel>Instagram</span></a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta" id="contato" aria-labelledby="cta-title">
+    <svg class="cta__art" aria-hidden="true"><use href="#i-air-conditioning"/></svg>
+    <div class="wrap cta__inner" data-reveal>
+      <h2 class="cta__title" id="cta-title">Seu equipamento precisa de atenção?</h2>
+      <p class="cta__text">Entre em contato com a JTech e consulte as opções de atendimento para o seu equipamento.</p>
+      <a class="btn btn--light btn--lg cta__btn" data-wa="geral" href="https://ig.me/m/jtechclimatizacaoelavadoras" target="_blank" rel="noopener">
+        <svg class="icon" aria-hidden="true"><use data-channel-icon href="#i-brand-instagram"/></svg>
+        <span>Solicitar orçamento pelo <span data-channel>Instagram</span></span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div class="footer__brand">
+      <a class="logo logo--light" href="#inicio" aria-label="JTech, voltar ao início">
+        <span class="logo__mark" aria-hidden="true">J</span>
+        <span class="logo__text"><span class="logo__name">JTech</span><span class="logo__sub">Climatização, lavadoras e refrigeração</span></span>
+      </a>
+      <p>Assistência técnica para ar-condicionado, lavadoras de roupas, geladeiras e micro-ondas.</p>
+      <p class="footer__city"><svg class="icon" aria-hidden="true"><use href="#i-map-pin"/></svg>Cachoeirinha - RS</p>
+    </div>
+
+    <div class="footer__col">
+      <h2 class="footer__h">Serviços</h2>
+      <ul>
+        <li><a href="#ar-condicionado">Ar-condicionado</a></li>
+        <li><a href="#lavadoras">Lavadoras de roupas</a></li>
+        <li><a href="#geladeiras">Geladeiras</a></li>
+        <li><a href="#micro-ondas">Micro-ondas</a></li>
+      </ul>
+    </div>
+
+    <nav class="footer__col" aria-label="Rodapé">
+      <h2 class="footer__h">Navegação</h2>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#como-funciona">Como funciona</a></li>
+        <li><a href="#duvidas">Dúvidas</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer__col">
+      <h2 class="footer__h">Contato</h2>
+      <ul>
+        <!-- Aparece sozinho quando CONFIG.whatsapp for preenchido -->
+        <li data-wa-only hidden>
+          <a data-wa="geral" href="https://ig.me/m/jtechclimatizacaoelavadoras" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-brand-whatsapp"/></svg>
+            <span data-wa-number></span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/jtechclimatizacaoelavadoras/" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-brand-instagram"/></svg>
+            @jtechclimatizacaoelavadoras
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="wrap footer__base">
+    <p>© <span data-year>2026</span> JTech Climatização, Lavadoras e Refrigeração. Todos os direitos reservados.</p>
+    <p>Fotos ilustrativas: Pexels e Unsplash.</p>
+  </div>
+</footer>
+
+<!-- Barra fixa (celular) -->
+<div class="mbar" aria-hidden="true">
+  <a class="btn btn--primary btn--block" tabindex="-1" data-wa="geral" href="https://ig.me/m/jtechclimatizacaoelavadoras" target="_blank" rel="noopener">
+    <svg class="icon" aria-hidden="true"><use data-channel-icon href="#i-brand-instagram"/></svg>
+    Solicitar orçamento
+  </a>
+</div>
+
+<!-- Galeria ampliada -->
+<dialog class="lightbox" aria-label="Foto ampliada">
+  <figure class="lightbox__fig">
+    <img class="lightbox__img" src="img/gal-instalacao-lg.webp" loading="lazy" decoding="async" alt="">
+    <figcaption class="lightbox__cap"></figcaption>
+  </figure>
+  <button class="lightbox__btn lightbox__close" type="button" aria-label="Fechar"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></button>
+  <button class="lightbox__btn lightbox__prev" type="button" aria-label="Foto anterior"><svg class="icon" aria-hidden="true"><use href="#i-chevron-left"/></svg></button>
+  <button class="lightbox__btn lightbox__next" type="button" aria-label="Próxima foto"><svg class="icon" aria-hidden="true"><use href="#i-chevron-right"/></svg></button>
+</dialog>
+
+<script src="script.js" defer></script>
+</body>
+</html>
